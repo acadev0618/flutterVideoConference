@@ -16,11 +16,11 @@ class MyApp extends StatefulWidget {
 }
 
 class _MyAppState extends State<MyApp> {
-  final serverText = TextEditingController();
-  final roomText = TextEditingController(text: "plugintestroom");
-  final subjectText = TextEditingController(text: "My Plugin Test Meeting");
-  final nameText = TextEditingController(text: "Plugin Test User");
-  final emailText = TextEditingController(text: "fake@email.com");
+  final serverText = TextEditingController(text: "https://meet.jit.si");
+  final roomText = TextEditingController(text: "salim");
+  final subjectText = TextEditingController(text: "Guid.fm for Speaker");
+  final nameText = TextEditingController(text: "Speaker1");
+  final emailText = TextEditingController(text: "speaker@gmail.com");
   final iosAppBarRGBAColor = TextEditingController(text: "#0080FF80");//transparent blue
   var isAudioOnly = true;
   var isAudioMuted = true;
@@ -188,8 +188,8 @@ class _MyAppState extends State<MyApp> {
   }
 
   _joinMeeting() async {
-    String serverUrl =
-        serverText.text?.trim()?.isEmpty ?? "" ? null : serverText.text;
+    String serverUrl = "https://meet.jit.si";
+        //serverText.text?.trim()?.isEmpty ?? "" ? null : serverText.text;
 
     try {
 
