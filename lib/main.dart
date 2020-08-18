@@ -81,7 +81,7 @@ class _HomeState extends State<Home> {
   }
 
   Future createRoom(String name) async {
-    final String baseUrl = 'http://10.10.10.121/webrtc_backend/public/api/';
+    final String baseUrl = 'http://5.189.191.243/api/';
     final String url = baseUrl + 'createRoom';
     final client = new http.Client();
     final response = await client.post(
@@ -169,7 +169,7 @@ class _HomeState extends State<Home> {
   }
     
   _joinMeeting(String room) async {
-    String serverUrl = "https://meet.jit.si";
+    String serverUrl = "https://jitsi.guidyo.net";
         //serverText.text?.trim()?.isEmpty ?? "" ? null : serverText.text;
 
     try {
