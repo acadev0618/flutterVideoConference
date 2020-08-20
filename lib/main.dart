@@ -3,7 +3,6 @@ import 'dart:io';
 
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:jitsi_meet_example/setting.dart';
 import 'package:http/http.dart' as http;
 import 'package:jitsi_meet/jitsi_meet.dart';
 import 'package:jitsi_meet/jitsi_meeting_listener.dart';
@@ -11,6 +10,7 @@ import 'package:jitsi_meet/room_name_constraint.dart';
 import 'package:jitsi_meet/room_name_constraint_type.dart';
 import 'package:jitsi_meet/feature_flag/feature_flag_enum.dart';
 import 'package:shared_preferences/shared_preferences.dart';
+import './setting.dart';
 
 void main() => runApp(MyApp());
 
@@ -44,6 +44,8 @@ class _HomeState extends State<Home> {
   String username = "Speaker1";
   String email = "speaker@gmail.com";
   String subject ="Guid.fm for Speaker";
+  final String baseUrl = 'http://5.189.191.243/api/';
+
 
   @override
   void initState() {
@@ -80,8 +82,27 @@ class _HomeState extends State<Home> {
     JitsiMeet.removeAllListeners();
   }
 
-  Future createRoom(String name) async {
-    final String baseUrl = 'http://5.189.191.243/api/';
+Future deleteRoom(String name) async {    
+    final String url = baseUrl + 'deleteRoom';
+    final client = new http.Client();
+    final response = await client.post(
+      url,
+      body: {"room_name" : name}
+    );
+
+    if (response.statusCode == 200) {
+      setState(() {
+        isLoading = false;
+        scaffoldKey.currentState.showSnackBar(SnackBar(
+          content: Text('${json.decode(response.body)['message'].toString()}'),
+        ));
+      });
+      print('result: ${json.decode(response.body)['message'].toString()}');
+    }
+  }
+
+
+  Future createRoom(String name) async {    
     final String url = baseUrl + 'createRoom';
     final client = new http.Client();
     final response = await client.post(
@@ -180,6 +201,15 @@ class _HomeState extends State<Home> {
       Map<FeatureFlagEnum, bool> featureFlags =
       {
         FeatureFlagEnum.WELCOME_PAGE_ENABLED : false,
+        FeatureFlagEnum.ADD_PEOPLE_ENABLED : false,
+        FeatureFlagEnum.CALENDAR_ENABLED : false,
+        FeatureFlagEnum.CHAT_ENABLED : false,
+        FeatureFlagEnum.INVITE_ENABLED : false,
+        FeatureFlagEnum.IOS_RECORDING_ENABLED : false,
+        FeatureFlagEnum.LIVE_STREAMING_ENABLED : false,
+        FeatureFlagEnum.RAISE_HAND_ENABLED : false,
+        FeatureFlagEnum.RECORDING_ENABLED : false,
+        FeatureFlagEnum.TILE_VIEW_ENABLED : false,
       };
 
       // Here is an example, disabling features for each platform
@@ -210,11 +240,18 @@ class _HomeState extends State<Home> {
       debugPrint("JitsiMeetingOptions: $options");
       await JitsiMeet.joinMeeting(options,
           listener: JitsiMeetingListener(onConferenceWillJoin: ({message}) {
+
             debugPrint("${options.room} will join with message: $message");
+
           }, onConferenceJoined: ({message}) {
+
             debugPrint("${options.room} joined with message: $message");
+
           }, onConferenceTerminated: ({message}) {
+
+            deleteRoom(options.room);
             debugPrint("${options.room} terminated with message: $message");
+            
           }),
           // by default, plugin default constraints are used
           //roomNameConstraints: new Map(), // to disable all constraints

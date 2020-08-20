@@ -1,4 +1,4 @@
-# jitsi_meet_example
+# guid_fm_AudioStream
 
 Demonstrates how to use the jitsi_meet plugin.
 

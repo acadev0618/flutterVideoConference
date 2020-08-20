@@ -25,7 +25,7 @@ class _SettingsState extends State<Settings> {
     return MaterialApp(
       home: Scaffold(
         appBar: AppBar(
-          title: const Text('Plugin example app'),
+          title: const Text('Setting'),
           centerTitle: true,
           leading: GestureDetector(
             onTap: () {
