@@ -81,7 +81,7 @@ class _HomeState extends State<Home> {
   }
 
   Future createRoom(String name) async {
-    final String baseUrl = 'http://10.10.10.121/webrtc_backend/public/api/';
+    final String baseUrl = 'http://5.189.191.243/webrtc_backend/public/api/';
     final String url = baseUrl + 'createRoom';
     final client = new http.Client();
     final response = await client.post(
