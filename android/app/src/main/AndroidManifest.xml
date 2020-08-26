@@ -1,5 +1,5 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.gunschu.jitsi_meet_example"
+    package="com.gunschu.guid_fm"
     xmlns:tools="http://schemas.android.com/tools">
     <!-- io.flutter.app.FlutterApplication is an android.app.Application that
          calls FlutterMain.startInitialization(this); in its onCreate method.
@@ -9,7 +9,7 @@
     <application
         tools:replace="android:label"
         android:name="io.flutter.app.FlutterApplication"
-        android:label="jitsi_meet_example"
+        android:label="guid_fm"
         android:icon="@mipmap/ic_launcher">
         <activity
             android:name=".MainActivity"

@@ -1,6 +1,6 @@
 {
-    "name": "jitsi_meet_example",
-    "short_name": "jitsi_meet_example",
+    "name": "guid_fm",
+    "short_name": "guid_fm",
     "start_url": ".",
     "display": "minimal-ui",
     "background_color": "#0175C2",

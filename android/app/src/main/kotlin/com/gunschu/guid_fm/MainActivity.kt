@@ -1,4 +1,4 @@
-package com.gunschu.jitsi_meet_example
+package com.gunschu.guid_fm
 
 import androidx.annotation.NonNull;
 import io.flutter.embedding.android.FlutterActivity

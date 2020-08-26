@@ -3,7 +3,7 @@ import 'dart:io';
 
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:jitsi_meet_example/setting.dart';
+import './setting.dart';
 import 'package:http/http.dart' as http;
 import 'package:jitsi_meet/jitsi_meet.dart';
 import 'package:jitsi_meet/jitsi_meeting_listener.dart';
@@ -214,11 +214,8 @@ class _HomeState extends State<Home> {
           }, onConferenceJoined: ({message}) {
             debugPrint("${options.room} joined with message: $message");
           }, onConferenceTerminated: ({message}) {
-            debugPrint("${options.room} terminated with message: $message");
-          }),
-          // by default, plugin default constraints are used
-          //roomNameConstraints: new Map(), // to disable all constraints
-          //roomNameConstraints: customContraints, // to use your own constraint(s)
+            debugPrint("${options.room} terminated with message: $message");   
+          })
       );
     } catch (error) {
       debugPrint("error: $error");

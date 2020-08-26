@@ -1,4 +1,4 @@
-name: jitsi_meet_example
+name: guid_fm_AudioStream
 description: Demonstrates how to use the jitsi_meet plugin.
 version: 0.1.2
 publish_to: 'none'
