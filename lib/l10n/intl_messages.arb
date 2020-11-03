@@ -1,0 +1,537 @@
+{
+  "@@last_modified": "2020-09-29T20:41:08.058604",
+  "successfullyUpdatedPassword": "Successfully updated password",
+  "@successfullyUpdatedPassword": {
+    "description": "",
+    "type": "text",
+    "placeholders": {}
+  },
+  "pleaseFillOldPasswordField": "Please fill old password field!",
+  "@pleaseFillOldPasswordField": {
+    "description": "",
+    "type": "text",
+    "placeholders": {}
+  },
+  "pleaseFillNewPasswordField": "Please fill new password field!",
+  "@pleaseFillNewPasswordField": {
+    "description": "",
+    "type": "text",
+    "placeholders": {}
+  },
+  "passwordMustBe6CharactersAtLeast": "Password must be 6 characters at least!",
+  "@passwordMustBe6CharactersAtLeast": {
+    "description": "",
+    "type": "text",
+    "placeholders": {}
+  },
+  "pleaseFillConfirmPasswordField": "Please fill confirm password field!",
+  "@pleaseFillConfirmPasswordField": {
+    "description": "",
+    "type": "text",
+    "placeholders": {}
+  },
+  "nomatchPasswordandconfirmPassword": "No match password and confirm password!",
+  "@nomatchPasswordandconfirmPassword": {
+    "description": "",
+    "type": "text",
+    "placeholders": {}
+  },
+  "changePassword": "Change Password",
+  "@changePassword": {
+    "description": "",
+    "type": "text",
+    "placeholders": {}
+  },
+  "oldPassword": "Old Password",
+  "@oldPassword": {
+    "description": "",
+    "type": "text",
+    "placeholders": {}
+  },
+  "enterYourOldPassword": "Enter your old password",
+  "@enterYourOldPassword": {
+    "description": "",
+    "type": "text",
+    "placeholders": {}
+  },
+  "newPassword": "New Password",
+  "@newPassword": {
+    "description": "",
+    "type": "text",
+    "placeholders": {}
+  },
+  "enterYourNewPassword": "Enter your new password",
+  "@enterYourNewPassword": {
+    "description": "",
+    "type": "text",
+    "placeholders": {}
+  },
+  "confirmNewPassword": "Confirm New Password",
+  "@confirmNewPassword": {
+    "description": "",
+    "type": "text",
+    "placeholders": {}
+  },
+  "enterConfirmNewPassword": "Enter confirm new password",
+  "@enterConfirmNewPassword": {
+    "description": "",
+    "type": "text",
+    "placeholders": {}
+  },
+  "submit": "Submit",
+  "@submit": {
+    "description": "",
+    "type": "text",
+    "placeholders": {}
+  },
+  "somethingWentWrong": "Something went wrong!",
+  "@somethingWentWrong": {
+    "description": "",
+    "type": "text",
+    "placeholders": {}
+  },
+  "successfullyCreatedYourChannel": "Successfully created your channel",
+  "@successfullyCreatedYourChannel": {
+    "description": "",
+    "type": "text",
+    "placeholders": {}
+  },
+  "successfullyUpdatedYourChannel": "Successfully updated your channel",
+  "@successfullyUpdatedYourChannel": {
+    "description": "",
+    "type": "text",
+    "placeholders": {}
+  },
+  "pleaseFillChannelNameField": "Please fill channel name field!",
+  "@pleaseFillChannelNameField": {
+    "description": "",
+    "type": "text",
+    "placeholders": {}
+  },
+  "channelNameMustBeOnlyOneWord": "Channel name must be only one word!",
+  "@channelNameMustBeOnlyOneWord": {
+    "description": "",
+    "type": "text",
+    "placeholders": {}
+  },
+  "pleaseFillPasswordField": "Please fill password field!",
+  "@pleaseFillPasswordField": {
+    "description": "",
+    "type": "text",
+    "placeholders": {}
+  },
+  "passwordMustBe3Characters": "Password must be 3 characters ( 2 numbers and 1 letter )!",
+  "@passwordMustBe3Characters": {
+    "description": "",
+    "type": "text",
+    "placeholders": {}
+  },
+  "pleaseSelectDomain": "Please select domain!",
+  "@pleaseSelectDomain": {
+    "description": "",
+    "type": "text",
+    "placeholders": {}
+  },
+  "channelSettings": "Channel Settings",
+  "@channelSettings": {
+    "description": "",
+    "type": "text",
+    "placeholders": {}
+  },
+  "channelName": "Channel Name",
+  "@channelName": {
+    "description": "",
+    "type": "text",
+    "placeholders": {}
+  },
+  "enterChannelName": "Enter channel name",
+  "@enterChannelName": {
+    "description": "",
+    "type": "text",
+    "placeholders": {}
+  },
+  "channelPassword": "Channel Password",
+  "@channelPassword": {
+    "description": "",
+    "type": "text",
+    "placeholders": {}
+  },
+  "enterChannelPassword": "Enter channel password",
+  "@enterChannelPassword": {
+    "description": "",
+    "type": "text",
+    "placeholders": {}
+  },
+  "character": "3 character ( 2 number and 1 letter )",
+  "@character": {
+    "description": "",
+    "type": "text",
+    "placeholders": {}
+  },
+  "domain": "Domain",
+  "@domain": {
+    "description": "",
+    "type": "text",
+    "placeholders": {}
+  },
+  "menu": "Menu",
+  "@menu": {
+    "description": "",
+    "type": "text",
+    "placeholders": {}
+  },
+  "home": "Home",
+  "@home": {
+    "description": "",
+    "type": "text",
+    "placeholders": {}
+  },
+  "profileSettings": "Profile settings",
+  "@profileSettings": {
+    "description": "",
+    "type": "text",
+    "placeholders": {}
+  },
+  "feedback": "Feedback",
+  "@feedback": {
+    "description": "",
+    "type": "text",
+    "placeholders": {}
+  },
+  "privacyRules": "Privacy Rules",
+  "@privacyRules": {
+    "description": "",
+    "type": "text",
+    "placeholders": {}
+  },
+  "terms": "Terms",
+  "@terms": {
+    "description": "",
+    "type": "text",
+    "placeholders": {}
+  },
+  "about": "About",
+  "@about": {
+    "description": "",
+    "type": "text",
+    "placeholders": {}
+  },
+  "logout": "Log out",
+  "@logout": {
+    "description": "",
+    "type": "text",
+    "placeholders": {}
+  },
+  "successfullySubmittedYourFeedback": "Successfully submitted your feedback",
+  "@successfullySubmittedYourFeedback": {
+    "description": "",
+    "type": "text",
+    "placeholders": {}
+  },
+  "pleaseFillSubjectField": "Please fill subject field!",
+  "@pleaseFillSubjectField": {
+    "description": "",
+    "type": "text",
+    "placeholders": {}
+  },
+  "pleaseFillMessageField": "Please fill message field!",
+  "@pleaseFillMessageField": {
+    "description": "",
+    "type": "text",
+    "placeholders": {}
+  },
+  "subject": "Subject",
+  "@subject": {
+    "description": "",
+    "type": "text",
+    "placeholders": {}
+  },
+  "enterFeedbackSubject": "Enter feedback subject",
+  "@enterFeedbackSubject": {
+    "description": "",
+    "type": "text",
+    "placeholders": {}
+  },
+  "message": "Message",
+  "@message": {
+    "description": "",
+    "type": "text",
+    "placeholders": {}
+  },
+  "pleaseFillEmailField": "Please fill email field!",
+  "@pleaseFillEmailField": {
+    "description": "",
+    "type": "text",
+    "placeholders": {}
+  },
+  "enterValidEmailAddress": "Enter valid email address!",
+  "@enterValidEmailAddress": {
+    "description": "",
+    "type": "text",
+    "placeholders": {}
+  },
+  "forgotPassword": "Forgot Password",
+  "@forgotPassword": {
+    "description": "",
+    "type": "text",
+    "placeholders": {}
+  },
+  "emailAddress": "Email Address",
+  "@emailAddress": {
+    "description": "",
+    "type": "text",
+    "placeholders": {}
+  },
+  "enterYourEmailAddress": "Enter your email address",
+  "@enterYourEmailAddress": {
+    "description": "",
+    "type": "text",
+    "placeholders": {}
+  },
+  "password": "Password",
+  "@password": {
+    "description": "",
+    "type": "text",
+    "placeholders": {}
+  },
+  "enterYourPassword": "Enter your password",
+  "@enterYourPassword": {
+    "description": "",
+    "type": "text",
+    "placeholders": {}
+  },
+  "bTalkerGuide": "bTalker - Guide",
+  "@bTalkerGuide": {
+    "description": "",
+    "type": "text",
+    "placeholders": {}
+  },
+  "youHaveToCreateFirstYourChannel": "You have to create first your channel",
+  "@youHaveToCreateFirstYourChannel": {
+    "description": "",
+    "type": "text",
+    "placeholders": {}
+  },
+  "oK": "OK",
+  "@oK": {
+    "description": "",
+    "type": "text",
+    "placeholders": {}
+  },
+  "cancel": "Cancel",
+  "@cancel": {
+    "description": "",
+    "type": "text",
+    "placeholders": {}
+  },
+  "areYouSureToClosebTalkerApp": "Are you sure to close bTalker app?",
+  "@areYouSureToClosebTalkerApp": {
+    "description": "",
+    "type": "text",
+    "placeholders": {}
+  },
+  "audioBroadcast": "Audio Broadcast",
+  "@audioBroadcast": {
+    "description": "",
+    "type": "text",
+    "placeholders": {}
+  },
+  "exit": "Exit",
+  "@exit": {
+    "description": "",
+    "type": "text",
+    "placeholders": {}
+  },
+  "start": "Start",
+  "@start": {
+    "description": "",
+    "type": "text",
+    "placeholders": {}
+  },
+  "copiedToClipboard": "Copied to Clipboard",
+  "@copiedToClipboard": {
+    "description": "",
+    "type": "text",
+    "placeholders": {}
+  },
+  "copy": "Copy",
+  "@copy": {
+    "description": "",
+    "type": "text",
+    "placeholders": {}
+  },
+  "listenerURL": "Listener URL",
+  "@listenerURL": {
+    "description": "",
+    "type": "text",
+    "placeholders": {}
+  },
+  "pleaseFillUsernameField": "Please fill username field!",
+  "@pleaseFillUsernameField": {
+    "description": "",
+    "type": "text",
+    "placeholders": {}
+  },
+  "login": "Login",
+  "@login": {
+    "description": "",
+    "type": "text",
+    "placeholders": {}
+  },
+  "username": "Username",
+  "@username": {
+    "description": "",
+    "type": "text",
+    "placeholders": {}
+  },
+  "enterYourUsername": "Enter your Username",
+  "@enterYourUsername": {
+    "description": "",
+    "type": "text",
+    "placeholders": {}
+  },
+  "forgetPassword": "Forget Password?",
+  "@forgetPassword": {
+    "description": "",
+    "type": "text",
+    "placeholders": {}
+  },
+  "dontyouHaveAnAccountAlready": "Don't you have an account already?",
+  "@dontyouHaveAnAccountAlready": {
+    "description": "",
+    "type": "text",
+    "placeholders": {}
+  },
+  "signupHere": "Signup here.",
+  "@signupHere": {
+    "description": "",
+    "type": "text",
+    "placeholders": {}
+  },
+  "profilePhoto": "Profile Photo",
+  "@profilePhoto": {
+    "description": "",
+    "type": "text",
+    "placeholders": {}
+  },
+  "successfullyUpdatedProfile": "Successfully updated profile",
+  "@successfullyUpdatedProfile": {
+    "description": "",
+    "type": "text",
+    "placeholders": {}
+  },
+  "pleaseFillFullNameField": "Please fill full name field!",
+  "@pleaseFillFullNameField": {
+    "description": "",
+    "type": "text",
+    "placeholders": {}
+  },
+  "pleaseFillPhoneNumberField": "Please fill phone number field!",
+  "@pleaseFillPhoneNumberField": {
+    "description": "",
+    "type": "text",
+    "placeholders": {}
+  },
+  "pleaseFillCountryField": "Please fill country field!",
+  "@pleaseFillCountryField": {
+    "description": "",
+    "type": "text",
+    "placeholders": {}
+  },
+  "pleaseFillCityField": "Please fill city field!",
+  "@pleaseFillCityField": {
+    "description": "",
+    "type": "text",
+    "placeholders": {}
+  },
+  "myDetails": "My Details",
+  "@myDetails": {
+    "description": "",
+    "type": "text",
+    "placeholders": {}
+  },
+  "fullName": "Full Name",
+  "@fullName": {
+    "description": "",
+    "type": "text",
+    "placeholders": {}
+  },
+  "enterYourFullName": "Enter your full name",
+  "@enterYourFullName": {
+    "description": "",
+    "type": "text",
+    "placeholders": {}
+  },
+  "phoneNumber": "Phone Number",
+  "@phoneNumber": {
+    "description": "",
+    "type": "text",
+    "placeholders": {}
+  },
+  "enterYourPhoneNumber": "Enter your phone number",
+  "@enterYourPhoneNumber": {
+    "description": "",
+    "type": "text",
+    "placeholders": {}
+  },
+  "country": "Country",
+  "@country": {
+    "description": "",
+    "type": "text",
+    "placeholders": {}
+  },
+  "enterYourCountry": "Enter your country",
+  "@enterYourCountry": {
+    "description": "",
+    "type": "text",
+    "placeholders": {}
+  },
+  "city": "City",
+  "@city": {
+    "description": "",
+    "type": "text",
+    "placeholders": {}
+  },
+  "enterYourCity": "Enter your city",
+  "@enterYourCity": {
+    "description": "",
+    "type": "text",
+    "placeholders": {}
+  },
+  "language": "Language",
+  "@language": {
+    "description": "",
+    "type": "text",
+    "placeholders": {}
+  },
+  "account": "Account",
+  "@account": {
+    "description": "",
+    "type": "text",
+    "placeholders": {}
+  },
+  "security": "Security",
+  "@security": {
+    "description": "",
+    "type": "text",
+    "placeholders": {}
+  },
+  "signUp": "Sign up",
+  "@signUp": {
+    "description": "",
+    "type": "text",
+    "placeholders": {}
+  },
+  "pickFromGallery": "Pick from Gallery",
+  "@pickFromGallery": {
+    "description": "",
+    "type": "text",
+    "placeholders": {}
+  },
+  "pickFromCamera": "Pick from Camera",
+  "@pickFromCamera": {
+    "description": "",
+    "type": "text",
+    "placeholders": {}
+  }
+}

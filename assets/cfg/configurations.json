@@ -1,5 +1,5 @@
 {
-    "base_url": "https://cobisglide.org/",
-    "api_base_url": "https://cobisglide.com/demo/api/v1/",
+    "base_url": "https://www.tezgene.com",
+    "api_base_url": "https://www.tezgene.com/api/",
     "google_maps_key" : "AIzaSyAT07iMlfZ9bJt1gmGj9KhJDLFY8srI6dA"
   }
